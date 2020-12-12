@@ -1,13 +1,21 @@
 
 export default function Home() {
   return (
-    <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-      <div class="flex-shrink-0">
-        <img class="h-12 w-12" src="/vercel.svg" alt="ChitChat Logo" />
+    <div class="h-full">
+      <div className="bg-blue-400 py-4 px-8">
+        <h1 className="text-white font-bold text-lg">Blimp UI</h1>
       </div>
-      <div>
-        <div class="text-xl font-medium text-black">ChitChat</div>
-        <p class="text-gray-500">You have a new message!</p>
+
+      <div className="flex h-full">
+        <div className="bg-gray-700 text-white w-1/4 p-8">
+          <p>Test</p>
+          <p>Test</p>
+        </div>
+
+        <div className="flex-auto p-8">
+          asdasdasd
+        </div>
+
       </div>
     </div>
   )
